@@ -29,7 +29,7 @@ function drag(box){
 
         var wrapRect = parent.getBoundingClientRect();
         var boxRect = box.getBoundingClientRect();
-        //限制范围
+        //限制范围 xianzhilefamwei
         if(nowL < wrapRect.left + parent.clientLeft){
             nowL = wrapRect.left + parent.clientLeft;
         } else if(nowL > wrapRect.right - boxRect.width - parent.clientLeft){
